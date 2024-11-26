@@ -1,0 +1,22 @@
+body {
+    font-family: sans-serif;
+}
+
+.header {
+    background-color: #037aff;
+    color: #fefffe;
+}
+
+.card {
+    background-color: blanchedalmond;
+    width: 300px;
+}
+
+.cardTitle {
+    color: skyblue;
+}
+
+.button {
+    background-color: #037aff;
+    color: white
+}

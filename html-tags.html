@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Elements Examples</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        section { margin-bottom: 20px; }
+        header, footer { background-color: #f4f4f9; padding: 10px; text-align: center; }
+        table, th, td { border: 1px solid black; border-collapse: collapse; padding: 5px; }
+        ul, ol { margin: 0; padding: 0 20px; }
+    </style>
+</head>
+<body>
+    <!-- Document Structure -->
+    <header>
+        <h1>HTML Elements Examples</h1>
+        <p>Learn about different types of HTML elements</p>
+    </header>
+    <main>
+        <!-- Headings -->
+        <section>
+            <h2>Headings</h2>
+            <p>HTML provides six levels of headings:</p>
+            <h1>Heading 1</h1>
+            <h2>Heading 2</h2>
+            <h3>Heading 3</h3>
+            <h4>Heading 4</h4>
+            <h5>Heading 5</h5>
+            <h6>Heading 6</h6>
+        </section>
+
+        <!-- Text Formatting -->
+        <section>
+            <h2>Text Formatting</h2>
+            <p>Examples of inline text formatting tags:</p>
+            <p>
+                This is <b>bold</b>, <i>italic</i>, <u>underlined</u>, and <mark>highlighted</mark> text.  
+                This is a <a href="https://www.example.com" target="_blank">link</a>.  
+                This is a <abbr title="HyperText Markup Language">HTML</abbr> abbreviation.
+            </p>
+        </section>
+
+        <!-- Lists -->
+        <section>
+            <h2>Lists</h2>
+            <p>Unordered list:</p>
+            <ul>
+                <li>Item 1</li>
+                <li>Item 2</li>
+                <li>Item 3</li>
+            </ul>
+            <p>Ordered list:</p>
+            <ol>
+                <li>First</li>
+                <li>Second</li>
+                <li>Third</li>
+            </ol>
+        </section>
+
+        <!-- Tables -->
+        <section>
+            <h2>Tables</h2>
+            <p>A simple table:</p>
+            <table>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>City</th>
+                </tr>
+                <tr>
+                    <td>John</td>
+                    <td>25</td>
+                    <td>New York</td>
+                </tr>
+                <tr>
+                    <td>Jane</td>
+                    <td>30</td>
+                    <td>Los Angeles</td>
+                </tr>
+            </table>
+        </section>
+
+        <!-- Multimedia -->
+        <section>
+            <h2>Multimedia</h2>
+            <p>An image:</p>
+            <img src="https://via.placeholder.com/150" alt="Placeholder Image">
+            <p>A video:</p>
+            <video controls width="300">
+                <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <!-- Forms -->
+        <section>
+            <h2>Forms</h2>
+            <p>A simple form:</p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email"><br><br>
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" cols="30"></textarea><br><br>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 HTML Element Examples</p>
+    </footer>
+</body>
+</html>
