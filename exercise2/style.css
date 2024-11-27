@@ -1,58 +1,39 @@
-/* General body styling */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
     margin: 0;
     padding: 0;
 }
-/* Header styling */
+
 .header {
     background-color: #037aff;
     color: #fefffe;
     text-align: center;
     padding: 20px 0; 
 }
-.Title1{
+.footer {
+    background-color: #303132;
+    color: #fefffe;
+    text-align: center;
+    padding: 20px 0; 
+}
+
+.card {
     padding: 10px; 
     background-color: #fefffe; 
     width: 300px;
-    height: 200px;
+    height: 300px;
     text-align: center;
     border-radius: 5px; 
     box-shadow: 2px 2px 8px 2px #e3e3e3; 
     margin: 40px auto; 
 
 }
-.Title2{
-    padding: 10px; 
-    background-color: #fefffe; 
-    width: 300px;
-    height: 200px;
-    text-align: center;
-    border-radius: 5px; 
-    box-shadow: 2px 2px 8px 2px #e3e3e3; 
-    margin: 40px auto; 
 
-}
-.Title3{
-    padding: 10px; 
-    background-color: #fefffe; 
-    width: 300px;
-    height: 200px;
-    text-align: center;
-    border-radius: 5px; 
-    box-shadow: 2px 2px 8px 2px #e3e3e3; 
-    margin: 40px auto; 
-
-}
-.Title4{
-    padding: 10px; 
-    background-color: #fefffe; 
-    width: 300px;
-    height: 200px;
-    text-align: center;
-    border-radius: 5px; 
-    box-shadow: 2px 2px 8px 2px #e3e3e3; 
-    margin: 40px auto; 
-
+.image {
+    margin: 0 auto;
+    height: 150px;
+    width: 150px;
+    background-color: gray;
 }
