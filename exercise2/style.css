@@ -15,6 +15,16 @@ body {
     padding: 20px 0; 
     
 }
+
+.container{
+    border:3px solid lightgray;
+    display: flex;
+    flex-direction: row;
+
+}
+
+
+
 .footer {
     background-color: #303132;
     color: #fefffe;
@@ -31,6 +41,7 @@ body {
     border-radius: 5px; 
     box-shadow: 2px 2px 8px 2px #e3e3e3; 
     margin: 40px auto; 
+    color:#037aff;
 
 }
 
@@ -39,8 +50,20 @@ body {
     height: 150px;
     width: 150px;
     background-color: gray;
+    align-content: center;
+    place-items: 150 * 150;
+    border-radius: 5px;
 }
 
 .text {
     font-size: 13px;
+    color: grey;
+    
+}
+
+@media (max-width: 800px) {
+ 
+    .container {
+      flex-direction: column;
+    }
 }
