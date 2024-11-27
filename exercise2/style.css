@@ -4,13 +4,16 @@ body {
     background-color: #f4f4f9;
     margin: 0;
     padding: 0;
+
 }
+
 
 .header {
     background-color: #037aff;
     color: #fefffe;
     text-align: center;
     padding: 20px 0; 
+    
 }
 .footer {
     background-color: #303132;
