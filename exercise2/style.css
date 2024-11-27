@@ -37,3 +37,7 @@ body {
     width: 150px;
     background-color: gray;
 }
+
+.text {
+    font-size: 13px;
+}
