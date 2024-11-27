@@ -1,22 +1,59 @@
+/* General body styling */
 body {
-    font-family: sans-serif;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
 }
 
+/* Header styling */
 .header {
     background-color: #037aff;
     color: #fefffe;
+    text-align: center;
+    padding: 20px 0; 
 }
 
+/* Card container styling */
 .card {
-    background-color: blanchedalmond;
+    padding: 10px; 
+    background-color: #fefffe; 
     width: 300px;
-}
+    height: 200px;
+    text-align: center;
+    border-radius: 5px; 
+    box-shadow: 2px 2px 8px 2px #e3e3e3; 
+    margin: 40px auto; 
+
 
 .cardTitle {
-    color: skyblue;
+    color: #037aff; 
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px; 
 }
 
-.button {
+
+.cardText {
+    font-size: 13px;
+    color: #555; 
+    margin-bottom: 20px;
+}
+
+
+.cardButton {
     background-color: #037aff;
-    color: white
+    color: white;
+    width: 75px;
+    height: 40px;
+    border-radius: 6px; 
+    cursor: pointer;
+    border: none; 
+    font-size: 14px;
+}
+
+/* Hover effect for button */
+.cardButton:hover {
+    background-color: #578abc; 
+}
 }
