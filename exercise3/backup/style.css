@@ -1,0 +1,204 @@
+
+* {
+  -webkit-font-smoothing: antialiased;
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0px;
+  height: 100%;
+}
+/* a blue color as a generic focus style */
+button:focus-visible {
+  outline: 2px solid #4a90e2 !important;
+  outline: -webkit-focus-ring-color auto 5px !important;
+}
+a {
+  text-decoration: none;
+}
+
+:root {
+    --blackplus: rgba(0, 23, 17, 1);
+    --after-eight: rgba(16, 37, 32, 1);
+    --dark-grey: rgba(224, 239, 234, 1);
+    --mid-grey: rgba(238, 248, 245, 1);
+    --base-grey: rgba(248, 252, 250, 1);
+    --layers-green: rgba(117, 255, 220, 1);
+    --ios-colors-labels-primary: rgba(0, 0, 0, 1);
+  }
+  
+  
+  [data-ios-colors-mode="light"] {
+    --ios-colors-labels-primary: rgba(0, 0, 0, 1);
+  }
+  
+  [data-ios-colors-mode="dark"] {
+    --ios-colors-labels-primary: rgba(255, 255, 255, 1);
+  }
+  
+  [data-ios-colors-mode="dark-elevated"] {
+    --ios-colors-labels-primary: rgba(255, 255, 255, 1);
+  }
+
+.desktop {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .desktop .div {
+    background-color: #ffffff;
+    overflow: hidden;
+    width: 1440px;
+    height: 1024px;
+    position: relative;
+  }
+  
+  .desktop .frame {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1224px;
+    align-items: center;
+    gap: 40px 24px;
+    position: absolute;
+    top: 137px;
+    left: 108px;
+  }
+  
+  .desktop .frame-2 {
+    display: flex;
+    flex-direction: column;
+    width: 288px;
+    align-items: flex-start;
+    gap: 24px;
+    position: relative;
+  }
+  
+  .desktop .title {
+    position: relative;
+    align-self: stretch;
+    margin-top: -1.00px;
+    font-family: "SF Pro-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--ios-colors-labels-primary);
+    font-size: 28px;
+    letter-spacing: 0;
+    line-height: 41px;
+  }
+  
+  .desktop .group {
+    position: relative;
+    width: 288px;
+    height: 288px;
+    background-color: var(--dark-grey);
+    border-radius: 7.13px;
+    border: 0.89px solid;
+    border-color: #000000;
+  }
+  
+  .desktop .rectangle {
+    position: absolute;
+    width: 204px;
+    height: 46px;
+    top: 224px;
+    left: 74px;
+    background-color: var(--dark-grey);
+    border-radius: 7.13px;
+    border: 0.89px solid;
+    border-color: #000000;
+  }
+  
+  .desktop .overlap-group {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    top: 220px;
+    left: 13px;
+    background-color: var(--dark-grey);
+    border-radius: 27.2px;
+    border: 0.89px solid;
+    border-color: #000000;
+  }
+  
+  .desktop .icon-person {
+    position: absolute;
+    width: 29px;
+    height: 30px;
+    top: 8px;
+    left: 12px;
+  }
+  
+  .desktop .icon-photo {
+    position: absolute;
+    width: 193px;
+    height: 193px;
+    top: 18px;
+    left: 46px;
+  }
+  
+  .desktop .ellipse {
+    position: absolute;
+    width: 54px;
+    height: 54px;
+    top: 219px;
+    left: 12px;
+    background-color: var(--dark-grey);
+    border-radius: 27.2px;
+    border: 0.89px solid;
+    border-color: #000000;
+  }
+  
+  .desktop .img {
+    left: -1901px;
+    position: absolute;
+    width: 29px;
+    height: 29px;
+    top: -729px;
+  }
+  
+  .desktop .icon-photo-2 {
+    position: absolute;
+    width: 193px;
+    height: 17px;
+    top: 18px;
+    left: 46px;
+  }
+  
+  .desktop .icon-person-2 {
+    left: -2213px;
+    position: absolute;
+    width: 29px;
+    height: 29px;
+    top: -729px;
+  }
+  
+  .desktop .icon-person-3 {
+    left: -2525px;
+    position: absolute;
+    width: 29px;
+    height: 29px;
+    top: -729px;
+  }
+  
+  .desktop .icon-person-4 {
+    left: -2837px;
+    position: absolute;
+    width: 29px;
+    height: 29px;
+    top: -729px;
+  }
+  
+  .desktop .text-wrapper {
+    position: absolute;
+    top: 39px;
+    left: 112px;
+    font-family: "SF Pro-Bold", Helvetica;
+    font-weight: 700;
+    color: var(--ios-colors-labels-primary);
+    font-size: 34px;
+    letter-spacing: 0;
+    line-height: 41px;
+    white-space: nowrap;
+  }
