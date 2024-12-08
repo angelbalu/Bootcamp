@@ -1,0 +1,139 @@
+
+.albums-container {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  align-items: center;
+  padding: 40px 80px 0;
+}
+
+.albums-wrapper {
+  display: flex;
+  width: 100%;
+  max-width: 1224px;
+  flex-direction: column;
+}
+
+.albums-heading {
+  color: #000;
+  align-self: start;
+  font: 700 34px/1 SF Pro, sans-serif;
+}
+
+.albums-grid {
+  display: flex;
+  margin-top: 56px;
+  align-items: center;
+  gap: 40px 24px;
+  justify-content: start;
+  flex-wrap: wrap;
+}
+
+.album-card {
+  align-self: stretch;
+  display: flex;
+  min-width: 240px;
+  flex-direction: column;
+  justify-content: start;
+  flex-grow: 1;
+  width: 230px;
+  margin: auto 0;
+}
+
+.album-title {
+  color: #000;
+  font: 700 28px/1 SF Pro, sans-serif;
+}
+
+.album-image {
+  position: relative;
+  background-color: rgba(224, 239, 234, 1);
+  aspect-ratio: 1;
+  object-fit: contain;
+  object-position: center;
+  width: 288px;
+  border-radius: 7.13px;
+  border: 0.89px solid;
+  border-color: #000000;
+  margin-top: 24px;
+  max-width: 100%;
+
+}
+
+.rectangle {
+  position: absolute;
+  width: 160px;
+  height: 46px;
+  top: 170px;
+  left: 74px;
+  background-color: rgba(224, 239, 234, 1);
+  border-radius: 7.13px;
+  border: 0.89px solid;
+  border-color: #000000;
+}
+
+.overlap-group {
+  position: absolute;
+  width: 54px;
+  height: 54px;
+  top: 166px;
+  left: 13px;
+  background-color: rgba(224, 239, 234, 1);
+  border-radius: 27.2px;
+  border: 0.89px solid;
+  border-color: #000000;
+}
+
+.icon-photo {
+  position: absolute;
+  width: 171px;
+  height: 148px;
+  top: 11px;
+  left: 34px;
+}
+
+
+.album-placeholder {
+  border-radius: 0;
+  display: flex;
+  margin-top: 24px;
+  max-width: 100%;
+  width: 288px;
+  flex-direction: column;
+}
+
+.placeholder-content {
+  border-radius: 7.133px;
+  border: 0.892px solid #000;
+  background: var(--Dark-Grey, #e0efea);
+  display: flex;
+  height: 36px;
+}
+
+@media (max-width: 991px) {
+  .albums-container {
+    padding: 0 20px;
+  }
+
+  .albums-wrapper {
+    max-width: 100%;
+  }
+
+  .albums-grid {
+    margin-top: 40px;
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+
