@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <style>
+
+      body {
+        margin: 0;
+      }
+      
+      .album-container {
+        background-color: rgba(0, 23, 17, 1);
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        align-items: start;
+        padding: 45px 70px 180px;
+      }
+
+      .album-wrapper {
+        width: 100%;
+        max-width: 1087px;
+      }
+
+      .album-content {
+        gap: 20px;
+        display: flex;
+      }
+
+      .album-left-section {
+        display: flex;
+        flex-direction: column;
+        line-height: normal;
+        width: 50%;
+      }
+
+      .album-nav {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+        align-items: start;
+      }
+
+      .back-button {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        color: var(--Layers-Green, #75ffdc);
+        font: 510 18px/41px SF Pro, sans-serif;
+      }
+
+      .back-icon {
+        aspect-ratio: 1;
+        object-fit: contain;
+        object-position: center;
+        width: 24px;
+        align-self: stretch;
+        margin: auto 0;
+      }
+
+      .album-cover {
+        aspect-ratio: 1;
+        object-fit: contain;
+        object-position: center;
+        width: 100%;
+        align-self: stretch;
+        margin-top: 40px;
+      }
+
+      .artist-info {
+        display: flex;
+        margin-left: 24px;
+        align-items: center;
+        gap: 8px;
+        font-family: Inter, sans-serif;
+        color: var(--Base-Grey, #f8fcfa);
+      }
+
+      .artist-avatar {
+        aspect-ratio: 1;
+        object-fit: contain;
+        object-position: center;
+        width: 80px;
+        border-radius: 50%;
+        align-self: stretch;
+        margin: auto 0;
+      }
+
+      .artist-details {
+        align-self: stretch;
+        display: flex;
+        min-width: 240px;
+        flex-direction: column;
+        width: 320px;
+        margin: auto 0;
+      }
+
+      .artist-label {
+        font-size: 13px;
+        font-weight: 400;
+        line-height: 1;
+      }
+
+      .artist-name {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 1;
+        margin-top: 8px;
+      }
+
+      .album-right-section {
+        display: flex;
+        flex-direction: column;
+        line-height: normal;
+        width: 50%;
+        margin-left: 20px;
+      }
+
+      .album-details {
+        display: flex;
+        margin-top: 81px;
+        flex-grow: 1;
+        flex-direction: column;
+      }
+
+      .album-title {
+        color: var(--Dark-Grey, #e0efea);
+        font: 700 34px/1 SF Pro, sans-serif;
+      }
+
+      .track-list {
+        display: flex;
+        margin-top: 32px;
+        width: 100%;
+        flex-direction: column;
+        color: var(--Base-Grey, #f8fcfa);
+        font: 500 24px/1.3 Inter, sans-serif;
+      }
+
+      .track-item {
+        display: flex;
+        width: 100%;
+        align-items: center;
+        gap: 12px;
+        margin-top: 24px;
+      }
+
+      .track-item:first-child {
+        margin-top: 0;
+      }
+
+      .track-number {
+        opacity: 0.5;
+        align-self: stretch;
+        width: 42px;
+        margin: auto 0;
+      }
+
+      .track-name {
+        align-self: stretch;
+        width: 341px;
+        margin: auto 0;
+      }
+
+      .track-duration {
+        text-align: right;
+        font-size: 18px;
+        line-height: 31px;
+        opacity: 0.5;
+        align-self: stretch;
+        width: 56px;
+        margin: auto 0;
+      }
+
+      @media (max-width: 991px) {
+        .album-container {
+          padding: 0 20px 100px;
+        }
+
+        .album-wrapper {
+          max-width: 100%;
+        }
+
+        .album-content {
+          flex-direction: column;
+          align-items: stretch;
+          gap: 0;
+        }
+
+        .album-left-section,
+        .album-right-section {
+          width: 100%;
+          margin-left: 0;
+        }
+
+        .album-nav {
+          max-width: 100%;
+          margin-top: 40px;
+        }
+
+        .album-cover {
+          max-width: 100%;
+        }
+
+        .artist-info {
+          margin-left: 10px;
+        }
+
+        .album-details {
+          max-width: 100%;
+          margin-top: 40px;
+        }
+
+        .album-title {
+          max-width: 100%;
+        }
+
+        .track-list {
+          max-width: 100%;
+        }
+      }
+    </style>
+
+    <div class="album-container">
+      <div class="album-wrapper">
+        <div class="album-content">
+          <div class="album-left-section">
+            <div class="album-nav">
+              <div class="back-button">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/16991f6ae3701b66ea28a065830fd6b3a78e41e9d86bad5ca38e6354e7ceecb5?placeholderIfAbsent=true&apiKey=e41e84fa164f4651b1e2ca1bb0bd702d"
+                  alt=""
+                  class="back-icon"
+                />
+                <a href="">BACK</a>
+                <!-- <span>BACK</span> -->
+              </div>
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/1172cbe4875cfe91a96e64fed6ff771bf07389f257e525b728b2f457256b254f?placeholderIfAbsent=true&apiKey=e41e84fa164f4651b1e2ca1bb0bd702d"
+                alt="Album cover for The Impossible Kid"
+                class="album-cover"
+              />
+              <div class="artist-info">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/36e0b069264eca5cee843943a3b5f6238308bb66018ec7e5097922a103a9d6f1?placeholderIfAbsent=true&apiKey=e41e84fa164f4651b1e2ca1bb0bd702d"
+                  alt="Aesop Rock profile picture"
+                  class="artist-avatar"
+                />
+                <div class="artist-details">
+                  <div class="artist-label">Artist</div>
+                  <div class="artist-name">Aesop Rock</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="album-right-section">
+            <div class="album-details">
+              <h1 class="album-title">The Impossible Kid</h1>
+              <div class="track-list">
+                <div class="track-item">
+                  <div class="track-number">01</div>
+                  <div class="track-name">Mystery Fish</div>
+                  <div class="track-duration">3:19</div>
+                </div>
+                <div class="track-item">
+                  <div class="track-number">02</div>
+                  <div class="track-name">Rings</div>
+                  <div class="track-duration">3:09</div>
+                </div>
+                <div class="track-item">
+                  <div class="track-number">03</div>
+                  <div class="track-name">Lotta Years</div>
+                  <div class="track-duration">3:09</div>
+                </div>
+                <div class="track-item">
+                  <div class="track-number">04</div>
+                  <div class="track-name">Dorks</div>
+                  <div class="track-duration">3:09</div>
+                </div>
+                <div class="track-item">
+                  <div class="track-number">05</div>
+                  <div class="track-name">Rabies</div>
+                  <div class="track-duration">3:09</div>
+                </div>
+                <div class="track-item">
+                  <div class="track-number">06</div>
+                  <div class="track-name">Supercell</div>
+                  <div class="track-duration">3:09</div>
+                </div>
+                <div class="track-item">
+                  <div class="track-number">07</div>
+                  <div class="track-name">Blood Sandwich</div>
+                  <div class="track-duration">3:09</div>
+                </div>
+                <div class="track-item">
+                  <div class="track-number">08</div>
+                  <div class="track-name">Get Out of the Car</div>
+                  <div class="track-duration">3:09</div>
+                </div>
+                <div class="track-item">
+                  <div class="track-number">09</div>
+                  <div class="track-name">Shrunk</div>
+                  <div class="track-duration">3:09</div>
+                </div>
+                <div class="track-item">
+                  <div class="track-number">10</div>
+                  <div class="track-name">Kirby</div>
+                  <div class="track-duration">3:09</div>
+                </div>
+                <div class="track-item">
+                  <div class="track-number">11</div>
+                  <div class="track-name">TUFF</div>
+                  <div class="track-duration">3:09</div>
+                </div>
+                <div class="track-item">
+                  <div class="track-number">12</div>
+                  <div class="track-name">Lotta Years</div>
+                  <div class="track-duration">3:09</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

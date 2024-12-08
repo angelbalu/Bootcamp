@@ -1,0 +1,21 @@
+h1 {
+  color: red;
+  background-color: aliceblue;
+  padding-top: 50px;
+  margin-top: 50px;
+  padding-left: 50px;
+  margin-left: 50px;
+  border-radius: 0ch;
+  border-color: blue;
+  border-width: 5px;
+  border-style: solid;
+  display: flexbox;
+}
+
+#one {
+  color: mediumvioletred;
+}
+
+* {
+  color: black;
+}
