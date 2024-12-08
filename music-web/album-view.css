@@ -41,7 +41,7 @@
 }
 
 .content-wrapper {
-  gap: 20px;
+  gap: 90px;
   display: flex;
 }
 
@@ -85,9 +85,6 @@
 }
 
 .artist-image {
-  aspect-ratio: 1;
-  object-fit: contain;
-  object-position: center;
   width: 94px;
   stroke-width: 1.536px;
   background-color: var(--Dark-Grey, #e0efea);
