@@ -202,6 +202,14 @@
   left: 34px;
 }
 
+.icon-person {
+  position: absolute;
+  width: 29px;
+  height: 30px;
+  top: 8px;
+  left: 12px;
+}
+
 @media (max-width: 991px) {
   .artist-section {
     padding: 0 20px 100px;
