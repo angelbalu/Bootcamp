@@ -1,9 +1,14 @@
+body {
+  margin: 0;
+}
 .albums-container {
-  background-color: #fff;
+  background-color: rgba(0, 23, 17, 1);
+  color: #e0efea;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 40px 80px 0;
+  font-family: Inter, sans-serif;
 }
 
 .albums-wrapper {
@@ -16,7 +21,6 @@
 }
 
 .albums-heading {
-  color: #000;
   align-self: start;
   font: 700 34px/1 SF Pro, sans-serif;
 }
@@ -42,14 +46,16 @@
   display: flexbox;
 }
 
+.album-card:hover {
+  box-shadow: 0 0 10px 5px #888888;
+}
+
 .album-title {
-  color: #000;
-  font: 700 28px/1 SF Pro, sans-serif;
+  margin-left: 52px;
 }
 
 .album-image {
   position: relative;
-  background-color: rgba(224, 239, 234, 1);
   aspect-ratio: 1;
   object-fit: contain;
   object-position: center;
@@ -57,17 +63,16 @@
   border-radius: 7.13px;
   border: 0.89px solid;
   border-color: #000000;
-  margin-top: 24px;
   max-width: 100%;
 }
 
 .rectangle {
+  color: #e0efea;
   position: absolute;
   width: 160px;
   height: 46px;
   top: 170px;
   left: 74px;
-  background-color: rgba(224, 239, 234, 1);
   border-radius: 7.13px;
   border: 0.89px solid;
   border-color: #000000;
@@ -79,7 +84,6 @@
   height: 54px;
   top: 166px;
   left: 13px;
-  background-color: rgba(224, 239, 234, 1);
   border-radius: 27.2px;
   border: 0.89px solid;
   border-color: #000000;
@@ -94,8 +98,8 @@
 }
 .icon-person {
   position: absolute;
-  width: 29px;
-  height: 30px;
+  width: 40px;
+  height: 40px;
   top: 8px;
   left: 12px;
 }

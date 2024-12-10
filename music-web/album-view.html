@@ -3,227 +3,104 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Album</title>
+    <title>Albums</title>
     <link rel="stylesheet" href="album-view.css" />
   </head>
   <body>
     <div class="album-container">
       <div class="album-wrapper">
-        <div class="header-section">
-          <h1 class="album-title">Album Name</h1>
-          <a href="index.html" class="back-link">&lt; Back to My Albums</a>
-        </div>
-
-        <div class="content-section">
-          <div class="content-wrapper">
-            <div class="album-art-column">
-              <div class="album-art-wrapper">
-                <div class="album-art-container">
-                  <img
-                    loading="lazy"
-                    src="icons/image.svg"
-                    alt="Album cover art"
-                    class="album-cover"
-                  />
-                </div>
-                <div class="album-info">
-                  <img
-                    loading="lazy"
-                    src="icons/profile.svg"
-                    alt="Artist profile picture"
-                    class="artist-image"
-                  />
-                  <div
-                    class="album-description"
-                    role="text"
-                    aria-label="Album description"
-                  ></div>
+        <div class="album-content">
+          <div class="album-left-section">
+            <div class="album-nav">
+              <div class="back-button">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/16991f6ae3701b66ea28a065830fd6b3a78e41e9d86bad5ca38e6354e7ceecb5?placeholderIfAbsent=true&apiKey=e41e84fa164f4651b1e2ca1bb0bd702d"
+                  alt=""
+                  class="back-icon"
+                />
+                <a style="color: #e0efea" href="">BACK</a>
+              </div>
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets/TEMP/1172cbe4875cfe91a96e64fed6ff771bf07389f257e525b728b2f457256b254f?placeholderIfAbsent=true&apiKey=e41e84fa164f4651b1e2ca1bb0bd702d"
+                alt="Album cover for The Impossible Kid"
+                class="album-cover"
+              />
+              <div class="artist-info">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets/TEMP/36e0b069264eca5cee843943a3b5f6238308bb66018ec7e5097922a103a9d6f1?placeholderIfAbsent=true&apiKey=e41e84fa164f4651b1e2ca1bb0bd702d"
+                  alt="Aesop Rock profile picture"
+                  class="artist-avatar"
+                />
+                <div class="artist-details">
+                  <div class="artist-label">Artist</div>
+                  <div class="artist-name">Aesop Rock</div>
                 </div>
               </div>
             </div>
-
-            <div class="tracks-column">
-              <div class="tracks-wrapper">
-                <h2 class="tracks-title">Tracks</h2>
-                <div class="tracks-list">
-                  <div class="track-item">
-                    <div class="track-name">
-                      <div
-                        class="track-name-box"
-                        role="text"
-                        aria-label="Track name"
-                      ></div>
-                    </div>
-                    <div class="track-duration">
-                      <div
-                        class="track-duration-box"
-                        role="text"
-                        aria-label="Track duration"
-                      ></div>
-                    </div>
-                  </div>
-                  <div class="track-item">
-                    <div class="track-name">
-                      <div
-                        class="track-name-box"
-                        role="text"
-                        aria-label="Track name"
-                      ></div>
-                    </div>
-                    <div class="track-duration">
-                      <div
-                        class="track-duration-box"
-                        role="text"
-                        aria-label="Track duration"
-                      ></div>
-                    </div>
-                  </div>
-                  <div class="track-item">
-                    <div class="track-name">
-                      <div
-                        class="track-name-box"
-                        role="text"
-                        aria-label="Track name"
-                      ></div>
-                    </div>
-                    <div class="track-duration">
-                      <div
-                        class="track-duration-box"
-                        role="text"
-                        aria-label="Track duration"
-                      ></div>
-                    </div>
-                  </div>
-                  <div class="track-item">
-                    <div class="track-name">
-                      <div
-                        class="track-name-box"
-                        role="text"
-                        aria-label="Track name"
-                      ></div>
-                    </div>
-                    <div class="track-duration">
-                      <div
-                        class="track-duration-box"
-                        role="text"
-                        aria-label="Track duration"
-                      ></div>
-                    </div>
-                  </div>
-                  <div class="track-item">
-                    <div class="track-name">
-                      <div
-                        class="track-name-box"
-                        role="text"
-                        aria-label="Track name"
-                      ></div>
-                    </div>
-                    <div class="track-duration">
-                      <div
-                        class="track-duration-box"
-                        role="text"
-                        aria-label="Track duration"
-                      ></div>
-                    </div>
-                  </div>
-                  <div class="track-item">
-                    <div class="track-name">
-                      <div
-                        class="track-name-box"
-                        role="text"
-                        aria-label="Track name"
-                      ></div>
-                    </div>
-                    <div class="track-duration">
-                      <div
-                        class="track-duration-box"
-                        role="text"
-                        aria-label="Track duration"
-                      ></div>
-                    </div>
-                  </div>
-                  <div class="track-item">
-                    <div class="track-name">
-                      <div
-                        class="track-name-box"
-                        role="text"
-                        aria-label="Track name"
-                      ></div>
-                    </div>
-                    <div class="track-duration">
-                      <div
-                        class="track-duration-box"
-                        role="text"
-                        aria-label="Track duration"
-                      ></div>
-                    </div>
-                  </div>
-                  <div class="track-item">
-                    <div class="track-name">
-                      <div
-                        class="track-name-box"
-                        role="text"
-                        aria-label="Track name"
-                      ></div>
-                    </div>
-                    <div class="track-duration">
-                      <div
-                        class="track-duration-box"
-                        role="text"
-                        aria-label="Track duration"
-                      ></div>
-                    </div>
-                  </div>
-                  <div class="track-item">
-                    <div class="track-name">
-                      <div
-                        class="track-name-box"
-                        role="text"
-                        aria-label="Track name"
-                      ></div>
-                    </div>
-                    <div class="track-duration">
-                      <div
-                        class="track-duration-box"
-                        role="text"
-                        aria-label="Track duration"
-                      ></div>
-                    </div>
-                  </div>
-                  <div class="track-item">
-                    <div class="track-name">
-                      <div
-                        class="track-name-box"
-                        role="text"
-                        aria-label="Track name"
-                      ></div>
-                    </div>
-                    <div class="track-duration">
-                      <div
-                        class="track-duration-box"
-                        role="text"
-                        aria-label="Track duration"
-                      ></div>
-                    </div>
-                  </div>
-                  <div class="track-item">
-                    <div class="track-name">
-                      <div
-                        class="track-name-box"
-                        role="text"
-                        aria-label="Track name"
-                      ></div>
-                    </div>
-                    <div class="track-duration">
-                      <div
-                        class="track-duration-box"
-                        role="text"
-                        aria-label="Track duration"
-                      ></div>
-                    </div>
-                  </div>
-                  
-                  </div>
+          </div>
+          <div class="album-right-section">
+            <div class="album-details">
+              <h1 class="album-title">The Impossible Kid</h1>
+              <div class="track-list">
+                <div class="track-item">
+                  <div class="track-number">01</div>
+                  <div class="track-name">Mystery Fish</div>
+                  <div class="track-duration">3:19</div>
+                </div>
+                <div class="track-item">
+                  <div class="track-number">02</div>
+                  <div class="track-name">Rings</div>
+                  <div class="track-duration">3:09</div>
+                </div>
+                <div class="track-item">
+                  <div class="track-number">03</div>
+                  <div class="track-name">Lotta Years</div>
+                  <div class="track-duration">3:09</div>
+                </div>
+                <div class="track-item">
+                  <div class="track-number">04</div>
+                  <div class="track-name">Dorks</div>
+                  <div class="track-duration">3:09</div>
+                </div>
+                <div class="track-item">
+                  <div class="track-number">05</div>
+                  <div class="track-name">Rabies</div>
+                  <div class="track-duration">3:09</div>
+                </div>
+                <div class="track-item">
+                  <div class="track-number">06</div>
+                  <div class="track-name">Supercell</div>
+                  <div class="track-duration">3:09</div>
+                </div>
+                <div class="track-item">
+                  <div class="track-number">07</div>
+                  <div class="track-name">Blood Sandwich</div>
+                  <div class="track-duration">3:09</div>
+                </div>
+                <div class="track-item">
+                  <div class="track-number">08</div>
+                  <div class="track-name">Get Out of the Car</div>
+                  <div class="track-duration">3:09</div>
+                </div>
+                <div class="track-item">
+                  <div class="track-number">09</div>
+                  <div class="track-name">Shrunk</div>
+                  <div class="track-duration">3:09</div>
+                </div>
+                <div class="track-item">
+                  <div class="track-number">10</div>
+                  <div class="track-name">Kirby</div>
+                  <div class="track-duration">3:09</div>
+                </div>
+                <div class="track-item">
+                  <div class="track-number">11</div>
+                  <div class="track-name">TUFF</div>
+                  <div class="track-duration">3:09</div>
+                </div>
+                <div class="track-item">
+                  <div class="track-number">12</div>
+                  <div class="track-name">Lotta Years</div>
+                  <div class="track-duration">3:09</div>
                 </div>
               </div>
             </div>

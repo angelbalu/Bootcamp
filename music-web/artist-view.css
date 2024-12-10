@@ -1,9 +1,15 @@
+body {
+  margin: 0;
+}
+
 .artist-section {
-  background-color: #fff;
+  background-color: rgba(0, 23, 17, 1);
+  color: #e0efea;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 40px 80px 365px;
+  font-family: SF Pro, sans-serif;
 }
 
 .artist-container {
@@ -16,8 +22,6 @@
 .header-wrapper {
   display: flex;
   gap: 40px 100px;
-  font-family: SF Pro, sans-serif;
-  color: #000;
   font-weight: 700;
   flex-wrap: wrap;
   align-items: center;
@@ -30,6 +34,7 @@
 }
 
 .back-link {
+  color: #e0efea;
   font-size: 18px;
   line-height: 41px;
   cursor: pointer;
@@ -63,8 +68,6 @@
 
 .profile-image-container {
   border-radius: 50%;
-  border: 1.536px solid #000;
-  background: var(--Dark-Grey, #e0efea);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -78,17 +81,6 @@
   object-position: center;
   width: 203px;
   margin-bottom: -23px;
-}
-
-.profile-bar {
-  border-radius: 12.285px;
-  border: 1.536px solid #000;
-  background: var(--Dark-Grey, #e0efea);
-  display: flex;
-  width: 365px;
-  max-width: 100%;
-  height: 80px;
-  margin: 55px 36px 0;
 }
 
 .albums-column {
@@ -106,9 +98,7 @@
 }
 
 .albums-title {
-  color: #000;
-  align-self: start;
-  font: 700 21px/1 SF Pro, sans-serif;
+  margin-left: 52px;
 }
 
 .albums-grid {
@@ -125,11 +115,9 @@
   display: flex;
   min-width: 240px;
   flex-direction: column;
-  color: #000;
   justify-content: start;
   flex-grow: 1;
   width: 230px;
-  font: 700 28px/1 SF Pro, sans-serif;
 }
 
 .album-image {
@@ -152,13 +140,11 @@
   margin: auto 0;
 }
 .album-title {
-  color: #000;
-  font: 700 28px/1 SF Pro, sans-serif;
+  margin-left: 52px;
 }
 
 .album-image {
   position: relative;
-  background-color: rgba(224, 239, 234, 1);
   aspect-ratio: 1;
   object-fit: contain;
   object-position: center;
@@ -166,7 +152,6 @@
   border-radius: 7.13px;
   border: 0.89px solid;
   border-color: #000000;
-  margin-top: 24px;
   max-width: 100%;
 }
 
@@ -176,10 +161,7 @@
   height: 46px;
   top: 170px;
   left: 74px;
-  background-color: rgba(224, 239, 234, 1);
   border-radius: 7.13px;
-  border: 0.89px solid;
-  border-color: #000000;
 }
 
 .overlap-group {
@@ -188,7 +170,6 @@
   height: 54px;
   top: 166px;
   left: 13px;
-  background-color: rgba(224, 239, 234, 1);
   border-radius: 27.2px;
   border: 0.89px solid;
   border-color: #000000;
