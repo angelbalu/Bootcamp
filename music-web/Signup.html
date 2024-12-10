@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AudioPulse SignIn</title>
+    <style>
+      .main {
+        background-color: bisque;
+      }
+      table {
+        margin-top: 20px;
+      }
+      td {
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body class="main">
+    <center>
+      <h1>AudioPulse 🎶</h1>
+      <form action="connection.php" method="post">
+        <table>
+          <tr>
+            <td>Email or mobile phone number:</td>
+            <td><input type="text" name="email_or_phone" required /></td>
+          </tr>
+          <tr>
+            <td>Password:</td>
+            <td><input type="password" name="password" required /></td>
+          </tr>
+          <tr>
+            <td colspan="2" style="text-align: center">
+              <input type="submit" value="Sign In" />
+            </td>
+          </tr>
+        </table>
+      </form>
+      <hr />
+      <a href="index.html"> Home </a>
+    </center>
+  </body>
+</html>
